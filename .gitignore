@@ -1,0 +1,109 @@
+# ======================
+# Go
+# ======================
+
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build 输出
+/bin/
+/build/
+*.out
+
+# 测试覆盖率
+*.coverprofile
+coverage.out
+
+
+# ======================
+# Go Modules
+# ======================
+
+# 依赖缓存（通常不提交）
+vendor/
+
+# Go workspace
+go.work
+go.work.sum
+
+
+# ======================
+# IDE
+# ======================
+
+# VS Code
+.vscode/
+
+# JetBrains (GoLand / IntelliJ)
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+
+# ======================
+# Environment
+# ======================
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+
+# ======================
+# Logs
+# ======================
+
+*.log
+logs/
+*.pid
+
+
+# ======================
+# Config
+# ======================
+
+# 本地配置
+config.local.yaml
+config.local.yml
+config.local.json
+
+# ======================
+# Database
+# ======================
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ======================
+# Temporary files
+# ======================
+
+tmp/
+temp/
+*.tmp
+*.bak
+
+
+# ======================
+# OS
+# ======================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ======================
+# docs
+# ======================
